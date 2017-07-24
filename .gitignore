@@ -1,0 +1,7 @@
+# Intellij ignores
+.idea
+**/*.iml
+
+# NodeJS ignores
+**/node
+**/node_modules
