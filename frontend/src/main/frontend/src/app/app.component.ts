@@ -12,6 +12,7 @@ import { Rental } from './models/rental';
 export class AppComponent implements OnInit {
   title = 'Haus';
   rentals: Rental[];
+  imageURI = "https://www.regatta.ro/images/400x400/media/casa-de-vanzare-4-camere-zona-pipera-aviatiei-bucuresti-145-mp-rgt32220-1.jpg";
 
   constructor(private http: HttpClient) {}
 

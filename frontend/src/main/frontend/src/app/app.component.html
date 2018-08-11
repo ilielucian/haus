@@ -6,9 +6,5 @@
   <img width="50" src="../assets/img/HAUS.png">
 </div>
 <h2>Rental list: </h2>
-<ul>
-  <li *ngFor="let rental of rentals">
-    <grid-element [rental]="rental"></grid-element>
-  </li>
-</ul>
+<app-rental-card *ngFor="let rental of rentals" [rental]="rental" [rentalImageURI]="imageURI"></app-rental-card>
 

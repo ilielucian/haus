@@ -9,6 +9,7 @@ public class Rental {
     private String title;
     private String description;
     private BigDecimal price;
+    private String currency;
 
     public String getTitle() {
         return title;
@@ -33,4 +34,12 @@ public class Rental {
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
+
+	public String getCurrency() {
+		return currency;
+	}
+
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
 }

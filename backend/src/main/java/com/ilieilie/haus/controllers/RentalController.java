@@ -23,6 +23,7 @@ public class RentalController {
         rental1.setTitle("Rental 1");
         rental1.setDescription("Description for rental 1");
         rental1.setPrice(new BigDecimal(350));
+        rental1.setCurrency("EUR");
         rentals.add(rental1);
 
         return rentals;
