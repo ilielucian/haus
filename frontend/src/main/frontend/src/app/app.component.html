@@ -1,10 +1,4 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="50" src="../assets/img/HAUS.png">
-</div>
-<h2>Rental list: </h2>
-<app-rental-card *ngFor="let rental of rentals" [rental]="rental" [rentalImageURI]="imageURI"></app-rental-card>
+<app-header></app-header>
+<router-outlet></router-outlet>
 

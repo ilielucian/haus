@@ -5,15 +5,23 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { RentalCardComponent } from './dashboard/rental-card/rental-card.component';
+import { CardContainerComponent } from './dashboard/card-container/card-container.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import {AppRoutingModule} from './app-routing.module';
+import { HeaderComponent } from './common/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RentalCardComponent
+    RentalCardComponent,
+    CardContainerComponent,
+    DashboardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

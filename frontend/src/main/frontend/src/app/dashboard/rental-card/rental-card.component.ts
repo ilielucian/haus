@@ -8,7 +8,6 @@ import {Rental} from '../../models/rental';
 })
 export class RentalCardComponent implements OnInit {
   @Input() rental: Rental;
-  @Input() rentalImageURI: string;
 
   constructor() { }
 
