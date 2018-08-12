@@ -9,6 +9,7 @@ import { CardContainerComponent } from './dashboard/card-container/card-containe
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {AppRoutingModule} from './app-routing.module';
 import { HeaderComponent } from './common/header/header.component';
+import {RentalsService} from './services/rentals.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { HeaderComponent } from './common/header/header.component';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    RentalsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

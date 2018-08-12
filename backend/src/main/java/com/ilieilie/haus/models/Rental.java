@@ -10,6 +10,7 @@ public class Rental {
     private String description;
     private BigDecimal price;
     private String currency;
+    private String imageURI;
 
     public String getTitle() {
         return title;
@@ -41,5 +42,13 @@ public class Rental {
 
 	public void setCurrency(String currency) {
 		this.currency = currency;
+	}
+
+	public String getImageURI() {
+		return imageURI;
+	}
+
+	public void setImageURI(String imageURI) {
+		this.imageURI = imageURI;
 	}
 }

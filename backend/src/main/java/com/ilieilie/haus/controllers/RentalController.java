@@ -24,6 +24,7 @@ public class RentalController {
         rental1.setDescription("Description for rental 1");
         rental1.setPrice(new BigDecimal(350));
         rental1.setCurrency("EUR");
+        rental1.setImageURI("https://www.regatta.ro/images/400x400/media/casa-de-vanzare-4-camere-zona-pipera-aviatiei-bucuresti-145-mp-rgt32220-1.jpg");
         rentals.add(rental1);
 
         return rentals;
